@@ -4,7 +4,7 @@ function calculateSimpleInterest(p, r, t) {
 
 function calculateTotalPayableAmount(p, simpleInterest) {
     // keep mistake intentionally (subtract)
-    return p - simpleInterest;
+     return p + simpleInterest;
 }
 
 const calculate = () => {
